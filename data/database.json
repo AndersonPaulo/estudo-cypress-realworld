@@ -74,6 +74,28 @@
       "balance": 49474,
       "createdAt": "2023-12-07T04:39:38.383Z",
       "modifiedAt": "2024-03-07T00:07:36.510Z"
+    },
+    {
+      "id": "LTlyAsicj",
+      "uuid": "35bf83ab-20a8-4569-862c-e22996c04596",
+      "firstName": "Dobrionn",
+      "lastName": "Rystonnn",
+      "username": "Silver",
+      "password": "$2a$10$KvFiLx24PIgr2TcaNdZ2ie96jEkot2Sz2lrCYNerMqRKtbw0V9eUW",
+      "balance": 0,
+      "createdAt": "2025-02-12T17:36:50.241Z",
+      "modifiedAt": "2025-02-12T17:36:50.241Z"
+    },
+    {
+      "id": "gobiPrqy4",
+      "uuid": "a3703571-2c0d-459f-994a-a743c72cbdcf",
+      "firstName": "Dobrionn",
+      "lastName": "Rystonnn",
+      "username": "Silver",
+      "password": "$2a$10$AE/Xp1Fk8s4kQ2F2EamB4OezMTGIMZlqi0FHmGeTYtFi.2qMCnlHe",
+      "balance": 0,
+      "createdAt": "2025-02-12T17:43:55.842Z",
+      "modifiedAt": "2025-02-12T17:43:55.842Z"
     }
   ],
   "contacts": [
@@ -253,6 +275,17 @@
       "isDeleted": false,
       "createdAt": "2024-01-26T14:01:01.815Z",
       "modifiedAt": "2024-03-07T08:44:31.174Z"
+    },
+    {
+      "id": "DQHmzuyPw",
+      "uuid": "02e42e0b-af36-4fea-b82d-8ea9ebf80460",
+      "userId": "LTlyAsicj",
+      "bankName": "interrr",
+      "accountNumber": "0901020405",
+      "routingNumber": "158897124",
+      "isDeleted": false,
+      "createdAt": "2025-02-12T17:37:36.834Z",
+      "modifiedAt": "2025-02-12T17:37:36.834Z"
     }
   ],
   "transactions": [

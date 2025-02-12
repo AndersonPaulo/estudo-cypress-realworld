@@ -26,13 +26,30 @@ Os seguintes cenários foram testados:
 📌 Garante que novos usuários podem se cadastrar corretamente.
 
 ❌ **Registro com falha**\
-📌 Testa se o sistema lida corretamente com erros no cadastro
+📌 Testa se o sistema lida corretamente com erros no cadastro.
+
+### Transferências
+
+✅ **Transferência com saldo positivo**\
+📌 Testa se um usuário consegue realizar uma transferência com saldo disponível.
+
+❌ **Transferência com saldo negativo**\
+📌 Foi identificado um erro onde, mesmo sem saldo disponível, o aplicativo informa que a transferência foi enviada.
+
+### Histórico de Transferências
+
+✅ **Verificação do histórico de transferências**\
+📌 O teste verifica se as transferências realizadas aparecem no histórico corretamente.
+
+❌ **Histórico sem transações**\
+📌 O teste deveria validar se a mensagem "Sem histórico de transações" aparece quando não há registros, contudo, os desenvolvedores não deixaram nenhum pré-cadastro sem histórico de movimentação. Mesmo ao criar um novo usuário, ele já vinha com um histórico pré-existente.
+
 
 ## Como Executar os Testes
 
 1. Clone este repositório:
    ```sh
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+   git clone https://github.com/AndersonPaulo/estudo-cypress-realworld.git
    ```
 2. Instale as dependências:
    ```sh

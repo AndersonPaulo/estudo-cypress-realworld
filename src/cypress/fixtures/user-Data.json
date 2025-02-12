@@ -10,19 +10,19 @@
     "password":"s3cretgr"
  },
  "registerNewUserSucess":{
-   "firstName":"Dobrio",
-   "lastName":"Ryston",
-   "userName":"Silva",
-   "password":"050607",
-   "passwordConfirm":"050607"
+   "firstName":"Dobrionn",
+   "lastName":"Rystonnn",
+   "userName":"Silver",
+   "password":"s3cret",
+   "passwordConfirm":"s3cret"
 },
 "registerNewUserFail":{
 
    "firstName":"Dobrio",
    "lastName":"Ryston",
    "userName":"Silva",
-   "password":"050607",
-   "passwordConfirm":"050600"
+   "password":"s3cret",
+   "passwordConfirm":"s3crett"
 }
 
 }
