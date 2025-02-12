@@ -1,0 +1,30 @@
+{
+ "userSucess":{
+
+    "username":"Heath93",
+    "password":"s3cret"
+ },
+ "userFail":{
+
+    "username":"Heath90",
+    "password":"s3cretgr"
+ },
+ "registerNewUserSucess":{
+   "firstName":"Dobrio",
+   "lastName":"Ryston",
+   "userName":"Silva",
+   "password":"050607",
+   "passwordConfirm":"050607"
+},
+"registerNewUserFail":{
+
+   "firstName":"Dobrio",
+   "lastName":"Ryston",
+   "userName":"Silva",
+   "password":"050607",
+   "passwordConfirm":"050600"
+}
+
+}
+
+
