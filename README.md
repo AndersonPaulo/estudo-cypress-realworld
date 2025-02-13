@@ -42,7 +42,7 @@ Os seguintes cenários foram testados:
 📌 O teste verifica se as transferências realizadas aparecem no histórico corretamente.
 
 ❌ **Histórico sem transações**\
-📌 O teste deveria validar se a mensagem "Sem histórico de transações" aparece quando não há registros, contudo, os desenvolvedores não deixaram nenhum pré-cadastro sem histórico de movimentação. Mesmo ao criar um novo usuário, ele já vinha com um histórico pré-existente.
+📌 O teste verifica  se a mensagem "Sem  transações" aparece quando não há registros.
 
 
 ## Como Executar os Testes

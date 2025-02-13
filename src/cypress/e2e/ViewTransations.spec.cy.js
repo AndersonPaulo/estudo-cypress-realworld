@@ -9,7 +9,8 @@ describe('Visualizar histórico de transações com sucesso', () => {
 
         LoginPage.AccessLoginPage()
         LoginPage.LoginwithUser(useData.userSucess.username,useData.userSucess.password)
-        cy.get("[data-test='transaction-list']")
+        cy.get("[data-test='nav-personal-tab']").click()
+        cy.get(".MuiPaper-elevation1")
         
     });
   });

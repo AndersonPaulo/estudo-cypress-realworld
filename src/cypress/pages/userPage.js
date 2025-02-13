@@ -29,6 +29,10 @@ class user{
         cy.get(this.selectorsList().amountSend).type("1000000000")
         cy.get(this.selectorsList().addNote).type("Thanks")
         cy.get(this.selectorsList().playButton).click()
+        let sucess = cy.get(this.selectorsList().alertSuccessTransation)
+        if (sucess ){
+            cy.log("!!Wrong Teste Fail !!! Dinheiro é enviado mesmo com Saldo Insuficiênte")
+        }
     }
 }
 

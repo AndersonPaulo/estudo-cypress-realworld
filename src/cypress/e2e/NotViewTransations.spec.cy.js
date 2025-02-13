@@ -11,6 +11,8 @@ describe('Tentar visualizar o histórico de transações sem transações anteri
       // 
       
       LoginPage.AccessLoginPage()
-      LoginPage.LoginwithUser("Dina20","s3cret")
+      LoginPage.LoginwithUser("Silver","s3cret")
+      cy.get("[data-test='nav-personal-tab']").click()
+      cy.get("[data-test='transaction-list-empty-create-transaction-button']")
     });
   });
